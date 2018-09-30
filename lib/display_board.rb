@@ -2,11 +2,11 @@
 # out the current state.
 
 def display_board(board)
-  puts "   |   |   "
+  puts "#{board[0]   |   |   "
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
 end
 
-print display_board()
+print display_board(["O", "X", " ", " ", "X", " ", "X", "O", " "])
